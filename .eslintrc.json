@@ -1,0 +1,27 @@
+{
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+        "airbnb-typescript",
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
+        "prettier",
+        "prettier/@typescript-eslint"
+    ],
+    "parserOptions": {
+        "project": "tsconfig.json",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "@typescript-eslint",
+        "eslint-plugin-jsdoc",
+        "eslint-plugin-prefer-arrow",
+        "eslint-plugin-import",
+        "@typescript-eslint"
+    ],
+    "rules": {}
+}
